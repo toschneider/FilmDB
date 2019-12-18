@@ -1,0 +1,7 @@
+branches:
+  # whitelist
+  only:
+    - dev
+image: Visual Studio 2019
+services:
+  - mssql2012sp1
