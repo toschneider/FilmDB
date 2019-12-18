@@ -128,6 +128,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MovieViewModelController.cs" />
     <Compile Include="DAL\MovieContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -140,6 +141,7 @@
     <Compile Include="Models\MovieCastRole.cs" />
     <Compile Include="Models\MovieDirection.cs" />
     <Compile Include="Models\MovieGenre.cs" />
+    <Compile Include="Models\MovieViewModel.cs" />
     <Compile Include="Models\Rating.cs" />
     <Compile Include="Models\Reviewer.cs" />
     <Compile Include="Models\Role.cs" />
@@ -181,6 +183,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\MovieViewModel\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
